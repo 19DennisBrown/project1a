@@ -1,0 +1,127 @@
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    background:grey;
+   
+}
+header  ul{
+    display:flex;
+    list-style:none;
+    justify-content:space-between;
+    top:0;
+    height:70px
+}
+header  ul  li{
+    font-weight:bold;
+    font-size:20px;
+  margin:10px auto;
+  padding-bottom:0;
+}
+header  ul  li:hover{
+    font-weight:bolder;
+    font-size:30px;
+    text-decoration:underline;
+  transform:scale(.8);
+  transition:1s ease-in-out 0ms ;
+  background:rgb(67, 67, 133);
+  color:orange;
+  padding:10px;
+  border-radius:  50% 25%  50% 25%;
+}
+header  ul  li  a{
+    text-decoration:none;
+    color:rgb(85, 68, 36);
+    
+}
+
+#nav-bar{
+    position:fixed;
+    top:105px;
+
+    left:0;
+    bottom:0;
+    width:130px;
+    background-color:blanchedalmond;
+    display:grid;
+    grid-gap:10px;
+}
+#nav-bar    div{
+    display:grid;
+    place-items:center;
+    font-size:30px;
+    box-sizing:border-box;
+}
+#nav-bar    div:hover{
+    background:white;
+    border-radius:6px;
+    box-sizing:border-box;
+    border:2px  solid   grey;
+    transition:1s   ease-in-out;    
+    color:grey;
+    
+}
+
+main{
+    padding-left:130px;
+    padding-top:20px;
+    background:rgb(26, 26, 48);
+    border-radius:20px;
+    padding-bottom:30px;
+}
+fieldset{
+    display:grid;
+    place-items:center;
+    
+
+}
+fieldset    legend{
+    font-weight:bold;
+    color:white;
+}
+fieldset    label{
+    font-style:italic;
+    font-size:23px;
+    color:grey;
+}
+fieldset    input{
+    border-collapse:collapse;
+    border:none;
+    border-radius:5px;
+}
+fieldset  input:nth-child(10){
+    font-style:bold;
+    margin-top:10px;
+    font-size:16px;
+    background:pink;
+    padding:5px 60px;
+    border-radius:9px;
+
+}
+footer{
+    margin-top:10px;  
+    display:grid;
+    place-items:center;
+    padding:10px    90px;
+    background:black;
+    border-radius:10px;
+}
+footer  a   i{
+    margin:10px;
+    color:orange;
+}
+footer  a   i:hover{
+    color:pink;
+    background:white;
+    padding:4px 8px;
+    border-radius:50%;
+    transition:1s;
+}
